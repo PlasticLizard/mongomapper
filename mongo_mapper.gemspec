@@ -9,7 +9,6 @@ Gem::Specification.new do |s|
   s.default_executable = 'mmconsole'
   s.authors            = ['John Nunemaker']
   s.email              = ['nunemaker@gmail.com']
-  s.executables        = ['mmconsole']
   s.version            = MongoMapper::Version
   s.platform           = Gem::Platform::RUBY
   s.files              = Dir.glob("{bin,examples,lib,rails,test}/**/*") + %w[LICENSE UPGRADES README.rdoc]
